@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Happy Birthday Sushree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bg-music" loop src="BIN TERE.mp3"></audio>
+    <div id="audio-control" class="speaker-icon">
+    <div id="speaker-btn">🔇</div>
+</div>
+
+    <div id="message-overlay">
+        <div class="sweet-message-card">
+            <div class="heart-icon">♥</div>
+            <h3>Happy Birthday Sushree!</h3>
+            <h4>                       </h4>
+            <p>Wishing you a very Happy Birthday Sushree... I may not be part of your daily life anymore But I still think about all the funny times, the gossips we shared... I hope this new chapter of your life brings you everything you’re looking for... And I want you to know that i still care for you and have so much respect for the person you are....                                                                   </p>
+            <button onclick="proceedToQuiz()" class="continue-btn">Continue</button>
+        </div>
+    </div>
+
+    <div id="screen1" class="screen active">
+        <canvas id="sky-canvas"></canvas>
+        <div class="special-star" id="special-star">
+            <div class="star-glow">★</div>
+            <span class="star-hint">touch here</span>
+        </div>
+        <img class="sitting-girl" src="Silhoutte.png" alt="Girl Sitting">
+        <div class="ground"></div>
+    </div>
+
+    <div id="screen2" class="screen">
+        <div id="virtual-knife">
+            <div class="knife-blade"></div>
+            <div class="knife-handle"></div>
+        </div>
+        <div class="cake-container">
+            <div class="candles-row" id="candles-click-area">
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+                <div class="candle"><div class="flame"></div></div>
+            </div>
+            <div class="cake" id="birthday-cake">
+                <div class="cake-layer layer-top"></div>
+                <div class="cream-line"></div>
+                <div class="cake-layer layer-middle"></div>
+                <div class="cream-line"></div>
+                <div class="cake-layer layer-bottom"></div>
+            </div>
+            <p id="interaction-hint">Tap the candles to blow them out!</p>
+        </div>
+    </div>
+
+    <div id="screen3" class="screen">
+        <div class="score-card" id="score-display">Score: 0 / 10</div>
+        <div class="quiz-container">
+            <div class="question-box" id="q-text">Loading Question...</div>
+            <div class="options-container">
+                <button type="button" class="option-btn" id="opt0"></button>
+                <button type="button" class="option-btn" id="opt1"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen4" class="screen">
+        <div class="final-score-banner" id="final-grade-display"></div>
+        <div class="mystery-box-container" id="box-section">
+            <div class="left-message-panel" id="side-gift-tracker">Tap the gift box to unwrap it!</div>
+            <div class="mystery-box" id="layers-box">
+                <div class="gift-bow"></div>
+            </div>
+        </div>
+        <div class="polaroid-deck" id="polaroid-deck"></div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
