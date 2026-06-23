@@ -53,6 +53,7 @@ body, html {
 /* Screen 1 styling */
 #screen1 { background: var(--bg-sky); }
 #sky-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 80%; z-index: 1; }
+.music-hint { font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); display: block; margin-top: 5px; }
 .special-star { position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); z-index: 3; text-align: center; cursor: pointer; animation: pulse 2s infinite alternate; }
 .star-glow { font-size: 1.3rem; color: #fff; text-shadow: 0 0 20px #fff, 0 0 30px #ff0; }
 .star-hint { font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); display: block; margin-top: 5px; }
