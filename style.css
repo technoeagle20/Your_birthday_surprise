@@ -242,9 +242,9 @@ body, html {
 .unwrap-rip-action { animation: ripAnimation 0.4s ease-out forwards; }
 @keyframes ripAnimation { 0% { transform: scale(1) rotate(0deg); } 50% { transform: scale(1.15) rotate(-8deg); opacity: 0.9; } 100% { transform: scale(1) rotate(0deg); opacity: 1; } }
 
-.polaroid-deck { display: none; position: relative; width: 100%; max-width: 320px; height: 380px; margin-top: 30px; }
+.polaroid-deck { display: none; position: relative; width: 100%; max-width: 320px; height: 390px; margin-top: 30px; }
 .polaroid-card { position: absolute; width: 100%; height: 100%; background: white; padding: 15px 15px 30px 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.4); transition: transform 0.5s ease, opacity 0.5s; cursor: pointer; }
-.polaroid-card img { width: 100%; height: 70%; object-fit: cover; border: 1px solid #e5e7eb; }
+.polaroid-card img { width: 100%; height: 80%; object-fit: cover; border: 1px solid #e5e7eb; }
 .polaroid-caption { color: #374151; text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: bold; margin-top: 12px; font-size: 1rem; }
 
 @keyframes pulse { 0% { transform: translate(-50%, -50%) scale(1); } 100% { transform: translate(-50%, -50%) scale(1.15); } }
