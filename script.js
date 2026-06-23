@@ -184,7 +184,7 @@ function proceedToQuiz() {
 /* --- QUIZ DATA --- */
 const quizData = [
     { q: "Do you remember the exact date we met?", a: ["January 4th", "June 4th"], correct: 1 },
-    { q: "What was the vibe of our first time hanging out?", a: ["Sharing traumas", "gossiping about random things"], correct: 1 },
+    { q: "What was the vibe of our first time hanging out?", a: ["Sharing traumas", "gossiping about random things"], correct: 0 },
     { q: "What was the funniest oops moment we had?", a: ["talking in class", "Laughing at silly things"], correct: 1 },
     { q: "The first thing we ever ate or drink together?", a: ["Lassi", "Chaat"], correct: 0 },
     { q: "The first person we gossiped about ?", a: ["My Family", "A specific person"], correct: 1 },
